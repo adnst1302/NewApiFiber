@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"NewApiFiber/boot"
+	"fmt"
+)
 
 func main() {
 	fmt.Println("Hello World")
+	boot.StartApiService()
 }
